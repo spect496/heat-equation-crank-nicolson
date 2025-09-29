@@ -5,14 +5,14 @@
 ## 文件结构
 
 heat-equation-crank-nicolson/
-├── heatfd_cn.m                 # 主程序文件
-├── examples/                   # 示例脚本
-│   └── example.m           # 使用示例
-├── images/                     # 结果图片
-│   ├── convergence_plot.png    # 收敛性分析图
-│   ├── error_analysis.png      # 误差分析图
-│   └── solution_visualization.png # 整体可视化图
-└── README.md                   # 项目说明（就是这个文件）
+─ heatfd_Crank_Nicolson.m                 # 主程序文件
+─ examples/                   # 示例脚本
+   ─ example.m           # 使用示例
+─ images/                     # 结果图片
+─ convergence_plot.png    # 收敛性分析图
+─ error_analysis.png      # 误差分析图
+─ solution_visualization.png # 整体可视化图
+─ README.md                   # 项目说明（就是这个文件）
 
 ## 背景
 
