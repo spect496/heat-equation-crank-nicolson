@@ -5,14 +5,14 @@
 \## 文件结构
 
 heat-equation-crank-nicolson/
-\─ heatfd_Crank_Nicolson.m                 # 主程序文件
-\─ examples/                   # 示例脚本
-   \─ example.m           # 使用示例
-\─ images/                     # 结果图片
-\─ convergence_plot.png    # 收敛性分析图
-\─ error_analysis.png      # 误差分析图
-\─ solution_visualization.png # 整体可视化图
-\─ README.md                   # 项目说明（就是这个文件）
+\─ heatfd_Crank_Nicolson.m                 (主程序文件)
+\─ examples/                   (示例脚本)
+   \─ example.m           (使用示例)
+\─ images/                     (结果图片)
+\─ convergence_plot.png    (收敛性分析图)
+\─ error_analysis.png      (误差分析图)
+\─ solution_visualization.png (整体可视化图)
+\─ README.md                   (项目说明（就是这个文件）)
 
 \## 背景
 
@@ -46,8 +46,6 @@ heat-equation-crank-nicolson/
 % 最简单的方式（使用默认参数）
 
 \[w, errors, convergence\_rate] = heatfd\_cn();
-
-
 
 % 或者自定义参数
 
@@ -83,7 +81,7 @@ params.N = 2000;
 
 运行后会生成：
 
-1. 3D温度演化图
+1\. 3D温度演化图
 
 2\. 不同时刻的温度分布
 
@@ -97,11 +95,7 @@ params.N = 2000;
 
 7\. 收敛性分析图
 
-
-
 \## 代码结构
-
-
 
 heatfd\_cn.m - 主文件，包含所有功能
 
