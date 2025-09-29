@@ -2,19 +2,19 @@
 
 用MATLAB实现一维热方程的数值求解，使用了Crank-Nicolson方法。这个方法是无条件稳定的，在时间和空间上都是二阶精度。
 
-## 文件结构
+\## 文件结构
 
 heat-equation-crank-nicolson/
-─ heatfd_Crank_Nicolson.m                 # 主程序文件
-─ examples/                   # 示例脚本
-   ─ example.m           # 使用示例
-─ images/                     # 结果图片
-─ convergence_plot.png    # 收敛性分析图
-─ error_analysis.png      # 误差分析图
-─ solution_visualization.png # 整体可视化图
-─ README.md                   # 项目说明（就是这个文件）
+\─ heatfd_Crank_Nicolson.m                 # 主程序文件
+\─ examples/                   # 示例脚本
+   \─ example.m           # 使用示例
+\─ images/                     # 结果图片
+\─ convergence_plot.png    # 收敛性分析图
+\─ error_analysis.png      # 误差分析图
+\─ solution_visualization.png # 整体可视化图
+\─ README.md                   # 项目说明（就是这个文件）
 
-## 背景
+\## 背景
 
 解决下面的热方程
 ```
